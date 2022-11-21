@@ -15,3 +15,36 @@ body{
     padding-top: 50px;
     text-align: center;
 }
+
+.products{
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.product{
+    margin-bottom: 20px;
+}
+
+.star{
+    color: rgba(255, 160, 42, 1);
+}
+
+.price{
+    color: green;
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+
+
+/* ADMIN CSS STARTS */
+
+.dashboard{
+    padding: 100px 20px;
+}
+
+.sect{
+    margin: 50px 0px;
+}
+
+/* ADMIN CS ENDS */

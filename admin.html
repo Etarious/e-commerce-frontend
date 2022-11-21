@@ -28,7 +28,7 @@
                     <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categories
                     </a>
                     <ul class="dropdown-menu">
@@ -43,7 +43,7 @@
                     <a class="nav-link" href="./aboutus.html">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./contactus.html">Contact Us</a>
+                    <a class="nav-link " href="./contactus.html">Contact Us</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -53,6 +53,114 @@
               </div>
             </div>
         </nav>
+
+
+
+        <!-- ADMIN STARTS -->
+
+        <div class="dashboard">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#product-list">Product List</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#product-process">Product Process</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#sales-history">Sales History</a>
+              </nav>
+            <div class="row sect" id="product-list">
+                <div class="col-md-8 db-output">
+                    <h3>OUTPUT</h3>
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Handle</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+                <div class="col db-forms">
+                    <h3>PRODUCT FORMS</h3>
+                    <form>
+                        <div class="mb-3">
+                          <label for="productName" class="form-label">Product Name</label>
+                          <input type="text" class="form-control" id="productname" aria-describedby="productHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productPrice" class="form-label">Product Price</label>
+                            <input type="text" class="form-control" id="productPrice" aria-describedby="priceHelp">
+                          </div>
+                        <div class="mb-3">
+                            <label for="productDesc" class="form-label">Product Description</label>
+                            <textarea class="form-control" rows="10" id="productPrice" aria-describedby="priceHelp"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                      </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row sect" id="product-process">
+                <div class="col-md-8 db-output">
+                    <h3>OUTPUT</h3>
+                </div>
+                <div class="col db-forms">
+                    <h3>PRODUCT FORMS</h3>
+                    <form>
+                        <div class="mb-3">
+                          <label for="productName" class="form-label">Product Name</label>
+                          <input type="text" class="form-control" id="productname" aria-describedby="productHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productPrice" class="form-label">Product Price</label>
+                            <input type="text" class="form-control" id="productPrice" aria-describedby="priceHelp">
+                          </div>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                      </form>
+                </div>
+            </div>
+            <hr>
+            <div class="row sect" id="sales-history">
+                <div class="col-md-8 db-output">
+                    <h3>OUTPUT</h3>
+                </div>
+                <div class="col db-forms">
+                    <h3>PRODUCT FORMS</h3>
+                    <form>
+                        <div class="mb-3">
+                          <label for="productName" class="form-label">Product Name</label>
+                          <input type="text" class="form-control" id="productname" aria-describedby="productHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="productPrice" class="form-label">Product Price</label>
+                            <input type="text" class="form-control" id="productPrice" aria-describedby="priceHelp">
+                          </div>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADMIN ENDS -->
+
+
 
         <!-- Footer -->
         <footer class="bg-dark text-center text-white">
